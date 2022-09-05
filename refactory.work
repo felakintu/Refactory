@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refactory</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="shortcut icon" href="./IMAGES/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css" integrity="sha512-SUwyLkI1Wgm4aEZkDkwwigXaOI2HFLy1/YW73asun4sfvlkB9Ecl99+PHfCnfWD0FJjIuFTvWMM7BZPXCckpAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header-wrapper">
+        <a  href="#" class="logo">Refactory</a>
+        <div class="menu__child">
+            <div class="menu">
+                <ul>
+                    <a href="/courses/" class="nav-links">Courses</a>
+                    <a href="/side library/" class="nav-links">Slide Library</a>
+                    <a href="#" class="nav-links">Rankings</a>
+                    <a href="#" class="nav-links">Help</a>
+                </ul>
+            </div>
+            <div class="profile">
+                <i class="fas fa-user-circle"></i>
+                <a href="#">CAT12  GERALD IRADUKUNDA </a>
+                <i class="fas fa-caret-down"></i>
+                <i class="fas fa-bell"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-body">
+        <div class="dash-wrapper">
+            <div class="dash-item">
+                <div class="child child-main">
+                    <i class="fas fa-user-circle"></i>
+                    <div class="child-main-one">
+                        <h4>CAT12</h4>
+                        <p>Iradukunda ...</p>
+                        <h4>Lv. 17</h4>
+                    </div>
+                </div>
+                <div class="child">
+                    <div class="child-one">
+                        <i class="fas fa-book"></i>
+                        <h4>35</h4>
+                    </div>
+                    <p>Exercises Cleared</p>
+                </div>
+                <div class="child">
+                    <div class="child-one">
+                        <i class="fas fa-medal"></i>
+                        <h4>2</h4>
+                    </div>
+                    <p>Lessons Completed</p>
+                </div>
+            </div>
+            <div class="side-wrapper">
+                <div class="side-title">
+                    <h4>Recent History</h4>
+                </div>
+                <div class="calender-container">
+                    <div class="calender">
+                        <p>Mo</p>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                    </div>
+                    <div class="calender">
+                        <p>Tu</p>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                    </div>
+                    <div class="calender">
+                        <p>We</p>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                    </div>
+                    <div class="calender">
+                        <p>Th</p>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                    </div>
+                    <div class="calender">
+                        <p>Fr</p>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                    </div>
+                    <div class="calender">
+                        <p>Sa</p>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                    </div>
+                    <div class="calender">
+                        <p>Su</p>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                        <div class="calender-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="progress">
+            <div class="progress-status progress-title">
+                <div class="lessons-progress">
+                    <i class="fas fa-book"></i>
+                    <h5>Lessons in Progress</h5>
+                    <div class="btn-view">
+                        <button>View</button>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="btn-wrapper">
+                <div class="btn-container">
+                    <div class="btn">
+                        <i class="far fa-window-maximize"></i>
+                        <button>Web</button>
+                    </div>
+                    <div class="btn">
+                        <i class="fas fa-mobile"></i>
+                        <button>App</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="learn-wrapper">
+            <div class="learn-container">
+                <p>You are not working on any web lessons.</p>
+                <img class="learn-img" src="./IMAGES/not-working.png">
+            </div>
+        </div>
+        <div class="line-border"></div>
+
+        <div class="progress">
+            <div class="lessons-progress progress-title">
+                <i class="fas fa-book"></i>
+                <h5>Completed Lessons</h5>
+                <div class="btn-view">
+                    <button>View</button>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            
+            <div class="btn-wrapper">
+                <div class="btn-container">
+                    <div class="btn">
+                        <i class="far fa-window-maximize"></i>
+                        <button>Web</button>
+                    </div>
+                    <div class="btn">
+                        <i class="fas fa-mobile"></i>
+                        <button>App</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fin-courses">
+            <div class="card">
+                <i class="fas fa-medal"></i>
+
+                <div class="course-titles">
+                    <p>Study</p>
+                    <h4>Git I</h4>
+                </div>
+
+                <img class="git-logo" src="./IMAGES/git-logo.png">
+
+                <button>Review</button>
+            </div>
+            <div style="background-color: #06d6a0;" class="card">
+                <i class="fas fa-medal"></i>
+
+                <div class="course-titles">
+                    <p>Study</p>
+                    <h4>HTML & CSS I</h4>
+                </div>
+
+                <img class="git-logo" src="./IMAGES/html-icon.png">
+
+                <button>Review</button>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer-wrapper">
+        <div class="footer-container">
+            <div class="footer-links logo-wrapper">
+                <h3>Refactory</h3>
+                <div class="app-store">
+                    <p>Check Out Our App</p>
+                    <div class="app-links">
+                        <a href="#"><img src="./IMAGES/apple store.png" alt=""></a>
+                        <a href="#"><img src="./IMAGES/playstore.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>SERVICES</h4>
+                <a href="#">Courses</a>
+                <a href="#">Plans</a>
+                <a href="#">Dashboard</a>
+                <a href="#">Learning Roadmap</a>
+                <a href="#">Success Stories</a>
+                <a href="#">Blog</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="footer-links">
+                <h4>SUPPORT</h4>
+                <a href="#">About Progate</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy Policy</a>   
+            </div>
+
+            <div class="footer-links">
+                <h4>CONNECT WITH US</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <p>	&copy; 2022, Refactory UG</p>
+    </footer>
+
+</body>
+</html>
